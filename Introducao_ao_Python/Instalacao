@@ -1,0 +1,13 @@
+
+2.0 - Instalação do Python
+
+Para começar a programar em Python, primeiro você deve baixar e instalar Python no seu computador. 
+Siga esses passos:
+
+Vá ao site oficial do Python: https://www.python.org/downloads/Links to an external site. 
+Na seção "Download" você encontrará a última versão estável do Python. Selecione a versão adequada para 
+o seu sistema operacional (Windows, macOS ou Linux).
+Baixe o instalador do Python correspondente ao seu sistema operacional.
+Uma vez baixado, execute o instalador. Certifique-se de marcar a opção "Add Python to PATH" durante o 
+processo de instalação no Windows. Isso permitirá que você execute Python a partir da linha de comando.
+Siga as instruções do instalador e espere a instalação ser concluída. 
