@@ -1,0 +1,17 @@
+
+3.0 - Configuração do ambiente de desenvolvimento
+
+Um ambiente de desenvolvimento integrado (IDE) é uma ferramenta que facilita a escrita, execução e 
+depuração de código. Embora você possa usar um editor de texto simples para escrever código Python, um 
+IDE oferece recursos adicionais que melhoram a produtividade do desenvolvimento. 
+
+Alguns IDEs populares para Python são: 
+
+PyCharm: é um IDE poderoso e completo desenvolvido pela JetBrains. Oferece funções avançadas, como 
+autocompletar código, depuração, integração com sistemas de controle de versão e mais. 
+
+Visual Studio Code: é um editor de código desenvolvido pela Microsoft. Com a extensão de Python, se torna 
+um IDE leve e versátil para o desenvolvimento de Python. 
+
+Sublime Text: é um editor de texto rápido e personalizável que suporta programação em Python através do 
+uso de plugins. 
