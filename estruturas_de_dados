@@ -1,0 +1,33 @@
+
+10.0 - Estruturas de dados
+
+As estruturas de dados nos permitem organizar e armazenar dados de maneira eficiente em nossos programas. 
+Python fornece várias estruturas de dados integradas, como listas, tuplas, dicionários e conjuntos, 
+cada uma com suas próprias características e usos.
+
+ 
+* Listas
+
+Uma lista é uma estrutura de dados mutável e ordenada que permite armazenar uma coleção de elementos. 
+Os elementos de uma lista podem ser de diferentes tipos de dados e são encerrados entre colchetes [], 
+separados por vírgulas.
+
+Criação e acesso
+
+Para criar uma lista, simplesmente encerre os elementos entre colchetes:
+
+frutas = ["maçã", "banana", "laranja"]
+
+Para acessar os elementos de uma lista, utilize o índice do elemento entre colchetes. Os índices 
+começam a partir de 0.
+
+print(frutas[0])  # Imprime "maçã"
+print(frutas[1])  # Imprime "banana"
+print(frutas[2])  # Imprime "laranja"
+
+Você também pode acessar os elementos a partir do final da lista utilizando índices negativos. 
+O índice -1 representa o último elemento, -2 representa o penúltimo, e assim por diante.
+
+print(frutas[-1])  # Imprime "laranja"
+print(frutas[-2])  # Imprime "banana"
+print(frutas[-3])  # Imprime "maçã"
