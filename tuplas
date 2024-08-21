@@ -1,0 +1,33 @@
+
+12.0 - Tuplas
+
+Uma tupla é uma estrutura de dados imutável e ordenada que permite armazenar uma coleção de elementos. 
+Os elementos de uma tupla são encerrados entre parênteses (), separados por vírgulas.
+
+
+Características principais das Tuplas:
+
+- Imutabilidade: Não é possível modificar os elementos de uma tupla após a sua criação.
+- Ordenação: Os elementos em uma tupla têm uma ordem definida e essa ordem é mantida.
+- Heterogeneidade: Uma tupla pode armazenar diferentes tipos de dados (inteiros, strings, 
+outras tuplas, etc.).
+- Indexação: Os elementos de uma tupla podem ser acessados por índices, onde o primeiro elemento tem 
+índice 0.
+
+ 
+Criação e acesso
+
+Para criar uma tupla, encerre os elementos entre parênteses:
+Para acessar os elementos de uma tupla, utilize o índice do elemento entre colchetes, similar às 
+listas. Ex:
+
+ponto = (3, 4)
+print(ponto[0])  # Imprime 3
+print(ponto[1])  # Imprime 4
+
+
+Ao contrário das listas, as tuplas são imutáveis, o que significa que não podem ser modificadas uma 
+vez criadas. Não se pode adicionar, eliminar ou alterar elementos em uma tupla existente.
+
+As tuplas são úteis quando você precisa armazenar uma coleção de elementos que não devem ser 
+modificados, como coordenadas ou dados de configuração.
