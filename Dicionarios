@@ -1,0 +1,22 @@
+
+14.0 - Dicionários
+
+Um dicionário é uma estrutura de dados mutável e não ordenada que permite armazenar pares de chave-valor. Cada elemento em um dicionário consiste em uma chave única e seu valor correspondente. Os dicionários são delimitados por chaves {}, e os pares chave-valor são separados por vírgulas.
+
+ 
+
+Criação e acesso
+
+Para criar um dicionário, utilize chaves e separe as chaves e valores com dois pontos. Ex:
+
+pessoa = {"nome": "João", "idade": 25, "cidade": "Madri"}
+
+Para acessar os valores de um dicionário, utilize a chave correspondente entre colchetes:
+
+print(pessoa["nome"])  # Imprime "João"
+print(pessoa["idade"])    # Imprime 25
+print(pessoa["cidade"])  # Imprime "Madri"
+
+
+Você também pode utilizar o método get() para obter o valor de uma chave. 
+Se a chave não existir, retorna um valor padrão (por padrão, None).
