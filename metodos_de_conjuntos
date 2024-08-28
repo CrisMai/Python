@@ -1,0 +1,14 @@
+
+17.0 - Métodos de conjuntos (set)
+
+Os conjuntos em Python têm vários métodos incorporados para manipular e acessar os elementos. 
+Alguns métodos comuns são:
+
+- add(elemento): adiciona um elemento ao conjunto.
+- remove(elemento): remove um elemento do conjunto. Se o elemento não existir, gera um erro.
+- discard(elemento): remove um elemento do conjunto se estiver presente. Se o elemento não existir, não faz nada.
+- clear(): remove todos os elementos do conjunto.
+- pop(): remove e retorna um elemento arbitrário do conjunto. 
+- union(): retorna um novo conjunto que contém todos os elementos de dois (ou mais) conjuntos.
+- intersection(): retorna um novo conjunto que contém os elementos que são comuns entre dois (ou mais) conjuntos.
+- difference(): retorna um novo conjunto contendo os elementos que estão no primeiro conjunto, mas não no segundo.
