@@ -6,6 +6,17 @@ durante a execução. Python fornece um mecanismo para lidar com esses erros de 
 utilizando o tratamento de exceções. Isso nos permite capturar e lidar com erros específicos sem que 
 o programa pare abruptamente.
 
+
+Conceitos Básicos
+
+Erro (Error): Em Python, erros são falhas que ocorrem quando o código não pode ser executado corretamente. 
+Por exemplo, erros de sintaxe (quando o código não é escrito corretamente) ou erros de tempo de execução, 
+como tentar acessar uma variável indefinida.
+
+Exceção (Exception): Uma exceção é um evento que ocorre durante a execução de um programa que interrompe 
+o fluxo normal do código. Exceções podem ser causadas por erros de programação ou situações inesperadas, 
+como a tentativa de dividir um número por zero ou acessar um arquivo que não existe.
+
  
 Erros comuns em Python
 
