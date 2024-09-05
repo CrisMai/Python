@@ -15,3 +15,14 @@ O bloco except especifica o tipo de exceção que se deseja capturar e lidar. Vo
 
 - Finally:
 O bloco finally é opcional e é executado sempre, independentemente de ter ocorrido uma exceção ou não. É comumente utilizado para realizar tarefas de limpeza ou liberação de recursos.
+
+
+Exceções Integradas em Python
+
+Python possui várias exceções integradas que cobrem uma ampla gama de erros comuns. Alguns exemplos incluem:
+
+- ValueError: Ocorre quando uma função recebe um argumento do tipo correto, mas com valor inadequado.
+- TypeError: Ocorre quando uma operação ou função é aplicada a um objeto de tipo inadequado.
+- IndexError: Ocorre ao tentar acessar um índice fora dos limites de uma lista ou tupla.
+- KeyError: Ocorre quando uma chave não é encontrada em um dicionário.
+- FileNotFoundError: Ocorre quando o código tenta acessar um arquivo que não existe.
