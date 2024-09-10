@@ -1,0 +1,52 @@
+
+25.0 - Entrada e saída de dados
+
+A entrada e saída de dados (E/S) em Python referem-se ao processo de interagir com o usuário ou 
+com outros sistemas para obter dados de entrada (input) ou exibir informações como saída (output). 
+Isso é uma parte fundamental da programação, pois permite que os programas recebam informações dinâmicas 
+e exibam resultados ao usuário ou para outros sistemas.
+
+
+Entrada de Dados (Input)
+
+A entrada de dados envolve o processo de capturar informações fornecidas pelo usuário ou por outra fonte 
+externa (como arquivos, sensores, ou dados de rede). 
+Em Python, o principal método para capturar a entrada do usuário no terminal é a função input().
+
+
+Função input()
+Sintaxe: input([prompt])
+
+A função input() exibe uma mensagem opcional (chamada de prompt) ao usuário e espera que ele forneça uma 
+resposta, que é retornada como uma string.
+O programa pausa até que o usuário digite uma entrada e pressione Enter.
+
+
+Características importantes:
+
+O valor de entrada é sempre tratado como string. Se o programa requer outro tipo de dado 
+(como números inteiros ou decimais), a entrada precisa ser convertida, usando funções como int() ou float().
+
+ 
+
+Saída de Dados (Output)
+
+A saída de dados refere-se ao processo de exibir informações para o usuário ou para outro sistema. 
+Em Python, o método mais comum de saída de dados no terminal é a função print().
+
+
+Função print()
+Sintaxe: print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+A função print() exibe os objetos fornecidos como argumento na tela ou em outro fluxo de saída especificado.
+
+Parâmetros importantes:
+
+- objects: Um ou mais objetos a serem exibidos.
+- sep: Define o separador entre os objetos (o valor padrão é um espaço).
+- end: Define o caractere que será adicionado ao final da linha (o valor padrão é uma nova linha \n).
+- file: Permite redirecionar a saída para um arquivo ou outro fluxo (padrão é o terminal).
+- flush: Se definido como True, força a saída imediata dos dados.
+
+ 
+ 
