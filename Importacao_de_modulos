@@ -1,0 +1,23 @@
+
+
+27.0 - Importação de módulos
+
+
+O processo de importação de módulos em Python é essencial para reutilizar código e organizar 
+funcionalidades de maneira eficiente. 
+Módulos são arquivos que contêm definições de funções, classes e variáveis, e que podem ser reutilizados 
+em outros programas. 
+O Python já vem com uma vasta biblioteca de módulos embutidos (chamada de Biblioteca Padrão), 
+e você também pode criar seus próprios módulos ou instalar módulos de terceiros.
+
+O que é um Módulo?
+
+Um módulo em Python é um arquivo com a extensão .py que contém definições de funções, classes e 
+variáveis. Ele encapsula funcionalidades que podem ser usadas em outros programas ou arquivos.
+
+
+Módulos vs. Pacotes
+
+Módulo: Um único arquivo .py que contém código Python.
+Pacote: Um diretório que contém múltiplos módulos, organizado por arquivos e subdiretórios. 
+Um pacote é considerado um pacote se o diretório conter um arquivo especial chamado __init__.py.
