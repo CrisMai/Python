@@ -1,0 +1,66 @@
+
+28.0 - Diferentes formas de importação de módulos
+
+Para usar as funcionalidades de um módulo em um programa, é necessário importá-lo usando a instrução 
+import. Existem diferentes formas de importar módulos, dependendo de como você quer utilizá-los.
+
+- Importação simples
+
+A forma mais básica de importar um módulo é usar a instrução import nome_do_modulo. 
+Isso carrega o módulo inteiro e suas funcionalidades, que podem ser acessadas pelo nome do módulo. Ex:
+
+import math  # Importa o módulo math, que faz parte da biblioteca padrão
+resultado = math.sqrt(16)  # Usando a função sqrt() do módulo math
+print(resultado)  # Saída: 4.0
+
+
+- Importando funções específicas
+
+Você pode importar apenas funções, classes ou variáveis específicas de um módulo, em vez de todo o módulo.
+Para isso, usa-se from nome_do_modulo import nome_da_funcao. Ex:
+
+from math import sqrt  # Importa apenas a função sqrt do módulo math
+resultado = sqrt(16)  # Agora, podemos usar sqrt() diretamente
+print(resultado)  # Saída: 4.0
+
+
+- Importação com alias
+
+Em alguns casos, o nome do módulo pode ser muito longo ou você quer evitar conflitos de nomes. 
+Nesse caso, você pode usar aliases (apelidos) para renomear o módulo ao importá-lo, usando as. Ex:
+
+import math as m  # Importa o módulo math com o apelido 'm'
+resultado = m.sqrt(16)  # Usando o apelido 'm' para chamar a função sqrt()
+print(resultado)  # Saída: 4.0
+
+
+- Importando todos os componentes de um módulo
+
+Usando from nome_do_modulo import *, você pode importar todas as funções e variáveis de um módulo 
+diretamente no seu espaço de nomes (namespace). Porém, essa prática não é recomendada, pois pode 
+causar conflitos de nomes, especialmente em projetos grandes. Ex:
+
+from math import *
+resultado = sqrt(16)  # A função sqrt pode ser usada diretamente
+print(resultado)  # Saída: 4.0
+
+
+- Módulos personalizados
+
+Você também pode criar seus próprios módulos em Python. Basta escrever as funções e variáveis em um 
+arquivo .py e importá-las em outros scripts. Exemplo de um módulo chamado meu_modulo.py:
+
+# Arquivo: meu_modulo.py
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+
+- Módulos de terceiros
+
+Python possui um ecossistema rico em bibliotecas de terceiros que podem ser instaladas usando o 
+pip (gerenciador de pacotes do Python). Uma vez instalados, esses módulos podem ser importados da mesma 
+forma que os módulos padrão. Ex:
+
+pip install requests  # Instala o módulo requests
+
+Depois de instalado, você pode importá-lo e usá-lo.
