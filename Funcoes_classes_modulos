@@ -1,0 +1,31 @@
+
+29.0 - Funções e classes de módulos padrão
+
+A biblioteca padrão de Python oferece uma ampla gama de módulos com funções e classes úteis. 
+Alguns exemplos comuns incluem:
+
+- Math: Fornece funções matemáticas, como sqrt() (raiz quadrada), sin() (seno), cos() (cosseno), entre outras. Principais funções:
+
+math.sqrt(x): Retornax.
+math.pow(x, y):xelevadoy(equivalentex ** y).
+math.sin(x), `matemática.cosmath.cos(x),math.tan(x):
+math.pi:
+math.log(x, base):xna base
+
+
+- Random: Oferece funções para gerar números aleatórios, como random() (número aleatório entre 0 e 1), randint() (número inteiro aleatório em um intervalo), entre outras.
+Principais funções:
+
+random.random(): Aposentado
+random.randint(a, b):ae `b(
+random.choice(seq): Retor
+random.shuffle(seq):
+
+
+- Datetime: Permite trabalhar com datas e horas, como datetime.now() (data e hora atual), datetime.date() (data), datetime.time() (hora), entre outras.
+Principais funções:
+
+datetime.date:
+datetime.time:
+datetime.datetime: Pentear
+datetime.timedelta:
