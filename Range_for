@@ -1,0 +1,47 @@
+
+34.0 - Range + For para usar intervalos de números
+
+Range()é uma função muito útil em Python, especialmente quando usada com um laço for. Ele gera uma sequência de números que pode ser usada para iterar sobre intervalos de números. A função range()pode ser usada de várias formas para definir esses intervalos:
+
+- Uso Básico do range()
+
+O range()é frequentemente usado para criar interrupções de números dentro de um laço for. Ex:
+
+for i in range(5):
+    print(i)
+
+Aqui, range(5)gera os números de 0 a 4 (o limite superior é exclusivo).
+
+
+- Definindo um Intervalo Personalizado
+
+Você também pode definir um intervalo inicial e final para o range(). Ex:
+
+for i in range(2, 10):
+    print(i)
+
+Aqui, o intervalo vai de 2 a 9 (novamente, o limite superior é exclusivo).
+
+
+- Definindo um Passo norange()
+
+O range()também pode aceitar um terceiro argumento, que indica o passo (a diferença entre os números gerados). Ex:
+
+for i in range(0, 10, 2):
+    print(i)
+
+Neste exemplo, o laço imprime os números de 0 a 8, pulando de 2 em 2.
+
+
+- Usando range()números negativos
+
+Você pode usar range()para contar para trás, utilizando um passo negativo. Ex:
+
+for i in range(10, 0, -1):
+    print(i)
+
+Aqui, o laço conta de 10 até 1, diminuindo 1 a cada iteração.
+
+
+Range(start, stop, step): start é o ponto de início (inclusivo), stop é o ponto final (exclusivo), e step é o incremento/decremento entre os números gerados.
+O laço for é amplamente utilizado com range() para trabalhar com sequências numéricas, facilitando a criação de loops em Python.
