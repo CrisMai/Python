@@ -1,0 +1,57 @@
+
+35.0 - Empacotamento e desempacotamento em Python
+
+O empacotamento e desempacotamento são recursos úteis do Python que facilitam a atribuição de 
+múltiplos valores a variáveis ​​e o tratamento de estruturas de dados, como tuplas e listas, de 
+forma mais intuitiva.
+
+- Empacotamento de Valores
+
+O empacotamento ocorre quando você atribui múltiplos valores a uma única variável, que é transformada 
+em uma tupla. Ex:
+
+# Empacotamento de múltiplos valores em uma tupla
+
+valores = 1, 2, 3
+print(valores)  # Saída: (1, 2, 3)
+print(type(valores))  # Saída: <class 'tuple'>
+
+Aqui, os valores 1, 2 e 3 são embalados automaticamente em uma tupla.
+
+
+- Desempacotamento de Valores
+
+O desempacotamento é o processo inverso: você extrai valores de uma estrutura como uma tupla ou lista 
+e os atribui a variáveis ​​separadas. Ex:
+
+# Desempacotamento de uma tupla em variáveis individuais
+
+a, b, c = (1, 2, 3)
+print(a)  # Saída: 1
+print(b)  # Saída: 2
+print(c)  # Saída: 3
+
+Aqui, a tupla (1, 2, 3) foi desempacotada e seus valores atribuídos às variáveis a​​, b, e c.
+
+
+- Desempacotamento Parcial Usando *
+
+Quando você não sabe quantos valores serão obtidos ou deseja capturar apenas parte deles, 
+o operador * pode ser usado sem desempacotamento para capturar "o resto" dos valores em uma lista. Ex:
+
+valores = (1, 2, 3, 4, 5)
+
+# Desempacotando parcialmente com o operador '*'
+
+a, *b, c = valores
+print(a)  # Saída: 1
+print(b)  # Saída: [2, 3, 4]  (valores intermediários)
+print(c)  # Saída: 5
+
+Aqui, a variável b recebe todos os valores intermediários, enquanto a e c recebe o primeiro e o 
+último valor, respectivamente.
+
+
+- Empacotamento : Agrupa múltiplos valores em uma única variável (tupla, lista, etc.).
+- Desempacotamento : Extrai valores de uma coleção e os distribui em variáveis ​​separadas.
+- O operador * é usado para capturar vários valores durante o empacotamento/desempacotamento.
