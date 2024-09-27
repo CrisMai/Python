@@ -1,0 +1,55 @@
+
+36.0 - Empacotamento e desempacotamento com listas e funções
+
+- Empacotamento com listas
+
+Ex:
+
+lista = [10, 20, 30, 40]
+
+*inicio, fim = lista
+print(inicio)  # Saída: [10, 20, 30]
+print(fim)  # Saída: 40
+
+Neste caso, o operador * permite colar todos os valores da lista, exceto o último, dentro da 
+variável inicio.
+
+
+- Desempacotamento com listas
+
+Ex:
+
+lista = [4, 5, 6]
+x, y, z = lista
+
+print(x)  # Saída: 4
+print(y)  # Saída: 5
+print(z)  # Saída: 6
+
+Aqui, os valores da lista [4, 5, 6] são atribuídos às variáveis x​​, y, e z.
+
+
+- Empacotamento e desempacotamento em funções
+
+- Empacotamento de argumentos 
+
+Usando * args e ** kwarg sem funções, você pode embalar um número variável de argumentos posicionais 
+e nomeados. Ex:
+
+def somar(*numeros):
+    return sum(numeros)
+
+resultado = somar(1, 2, 3, 4)
+print(resultado)  # Saída: 10
+
+
+- Desempacotamento de argumentos 
+
+Você pode passar uma lista ou tupla como argumentos para uma função usando o desempacotamento com *. Ex:
+
+def exibir(a, b, c):
+    print(a, b, c)
+
+# Desempacotando uma tupla como argumentos
+valores = (1, 2, 3)
+exibir(*valores)  # Saída: 1 2 3
