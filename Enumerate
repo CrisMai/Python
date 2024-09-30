@@ -1,0 +1,35 @@
+
+37.0 - Enumerate
+
+O enumerate()em Python é uma função que permite iterar sobre uma sequência (como uma lista, tupla
+ou string), retornando o índice de cada item junto com o valor do item em si. Isso é útil quando você 
+precisa tanto do índice quanto o valor ao percorrer uma lista, em vez de usar uma função range(len())
+para acessar o índice separadamente. Sintaxe:
+
+enumerate(iterável, start=0)
+
+- iterável: Qualquer sequência (como listas, tuplas ou strings) ou objetos que suportam iteração.
+- start: Um valor opcional que define o índice inicial (o padrão é 0).
+
+Ex:
+
+lista = ['maçã', 'banana', 'laranja']
+
+# Usando enumerate para obter índice e valor
+for indice, valor in enumerate(lista):
+    print(f"Índice {indice}: {valor}")
+
+Índice 0: maçã
+Índice 1: banana
+Índice 2: laranja
+
+
+Nesse exemplo, o enumerate() permite obter tanto o índice quanto o valor dos itens da lista ao mesmo tempo.
+
+
+
+O enumerate()é uma função poderosa para iterar sobre coleções quando você precisa tanto do índice quanto 
+do valor .
+Ele é especialmente útil para melhorar a legibilidade e simplicidade do código em comparação ao uso 
+de range(len()).
+O parâmetro startpermite que você controle o ponto de início da contagem dos índices.
