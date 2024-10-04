@@ -1,0 +1,35 @@
+
+40.0 - Formatação de strings usando f-strings
+
+A formatação de strings é uma técnica fundamental em Python para inserir variáveis ou expressões 
+dentro de uma string de forma dinâmica. Entre os métodos de formatação mais utilizados estão o 
+método str.format() e as f-strings, introduzidas a partir do Python 3.6.
+
+- F-Strings
+
+As f-strings são uma maneira concisa e eficiente de formatar strings. 
+Elas oferecem uma sintaxe mais simples e intuitiva, permitindo que o programador insira expressões 
+diretamente dentro de uma string prefixada pela letra f. Uma das grandes vantagens das f-strings é a 
+possibilidade de incluir variáveis e até expressões dentro das chaves {} sem a necessidade de chamar 
+métodos adicionais ou criar estruturas mais complexas. 
+Além disso, o código se torna mais legível, já que a formatação é incorporada diretamente à string.
+
+Outro ponto importante das f-strings é que elas permitem maior controle sobre o formato de saída. 
+Com elas, é possível, por exemplo, especificar o número de casas decimais para números de ponto flutuante, 
+alinhar o texto à esquerda ou à direita, ou preencher com zeros, tudo dentro da própria estrutura da 
+f-string.
+
+As f-strings também se destacam pela sua eficiência de execução, já que são processadas em tempo de 
+compilação, o que as torna mais rápidas em comparação com outras técnicas de formatação. Isso as torna 
+a escolha ideal para código moderno e otimizado em Python.
+
+Ex:
+
+nome = 'Ana'
+idade = 28
+mensagem = f'Meu nome é {nome} e eu tenho {idade} anos.'
+print(mensagem)
+
+Saída:
+
+Meu nome é Ana e eu tenho 28 anos.
