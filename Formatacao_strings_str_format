@@ -1,0 +1,29 @@
+
+41.0 - Formatação de strings usando o método str.format()
+
+O método str.format(), introduzido nas primeiras versões do Python 3, é outro recurso poderoso 
+para formatação de strings. 
+Ele utiliza chaves {} como marcadores de posição dentro da string, onde os valores são inseridos por 
+meio do método format(). Esse método permite que variáveis, expressões ou valores sejam passados 
+diretamente como argumentos, substituindo os marcadores de posição.
+
+O str.format() é altamente flexível, pois permite o uso de índices e nomes nas chaves para controlar 
+com precisão a substituição de valores, possibilitando reordenar argumentos e criar formatações complexas 
+sem esforço adicional. Além disso, ele também suporta uma ampla gama de especificadores de formato, 
+permitindo o controle da formatação de números, datas, e alinhamento de texto, assim como ocorre nas 
+f-strings.
+
+Embora as f-strings sejam a opção mais recomendada no Python moderno, o método format() continua sendo 
+amplamente utilizado, especialmente em situações onde versões mais antigas do Python ainda são suportadas.
+
+
+Ex:
+
+nome = 'Maria'
+idade = 30
+mensagem = 'Meu nome é {} e eu tenho {} anos.'.format(nome, idade)
+print(mensagem)
+
+Saída:
+
+Meu nome é Maria e eu tenho 30 anos.
