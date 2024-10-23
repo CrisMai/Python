@@ -1,0 +1,27 @@
+
+52.0 - Split, Join e Strip - métodos úteis da string
+
+- Split()
+
+A função split() divide uma string em uma lista de substrings, com base em um delimitador especificado (por padrão, espaços em branco).
+
+Sintaxe: string.split(separador, maxsplit)
+
+
+- Join()
+
+A função join() junta elementos de uma lista (ou outro iterável) em uma única string, separando-os por um delimitador.
+
+Sintaxe: delimitador.join(iterável)
+
+- Strip()
+
+A função strip() remove espaços em branco (ou caracteres especificados) do início e do final de uma string.
+
+Sintaxe: string.strip(caracteres)
+
+
+
+
+
+
