@@ -1,0 +1,50 @@
+
+53.0 Desempacotamento em chamadas de funções
+
+O desempacotamento em chamadas de funções em Python permite passar múltiplos valores armazenados 
+em estruturas como listas, tuplas ou dicionários diretamente como argumentos de uma função, 
+utilizando os operadores * (para iteráveis como listas ou tuplas) e ** (para dicionários). 
+Isso facilita a passagem de múltiplos argumentos de forma mais legível e concisa.
+
+
+- Desempacotamento com * (para listas e tuplas)
+
+O operador * é utilizado para desempacotar uma lista ou tupla, ou seja, ele extrai seus elementos e 
+os passa como argumentos individuais para a função.
+
+Ex:
+
+def soma(a, b, c):
+    return a + b + c
+
+valores = [1, 2, 3]
+resultado = soma(*valores)
+print(resultado)  # Saída: 6
+
+Aqui, a lista valores é desempacotada em três argumentos que são passados para a função soma.
+
+
+- Desempacotamento com ** (para dicionários)
+
+O operador ** é usado para desempacotar dicionários e passar seus valores como argumentos 
+nomeados (ou seja, parâmetros keyword) para a função.
+
+Ex:
+
+def exibir_dados(nome, idade):
+    print(f"Nome: {nome}, Idade: {idade}")
+
+dados = {'nome': 'Ana', 'idade': 25}
+exibir_dados(**dados)  # Saída: Nome: Ana, Idade: 25
+
+Aqui, o dicionário dados é desempacotado e os pares chave-valor são passados como argumentos 
+nomeados para a função exibir_dados.
+
+
+Vantagens do desempacotamento:
+
+Legibilidade: Facilita a passagem de múltiplos valores ou parâmetros de maneira mais simples e direta.
+Flexibilidade: Permite que funções recebam variáveis de iteráveis (listas, tuplas) e dicionários sem 
+precisar acessar os elementos manualmente.
+Reutilização: Torna o código mais reutilizável, especialmente quando as funções trabalham com coleções 
+de dados.
