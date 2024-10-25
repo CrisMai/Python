@@ -1,0 +1,29 @@
+
+54.0 - Operação ternária com Python (if-else de uma linha)
+
+
+A operação ternária em Python é uma forma concisa de expressar uma estrutura condicional if-else 
+em apenas uma linha. 
+Ela é útil para situações em que você deseja atribuir um valor a uma variável com base em uma condição, 
+sem a necessidade de escrever o bloco completo de if-else.
+
+Sintaxe da Operação Ternária:
+
+valor = expressão_verdadeira if condição else expressão_falsa
+
+condição: A expressão booleana que será avaliada como True ou False.
+expressão_verdadeira: O valor que será atribuído se a condição for verdadeira.
+expressão_falsa: O valor que será atribuído se a condição for falsa.
+
+Ex:
+
+idade = 18
+status = "Maior de idade" if idade >= 18 else "Menor de idade"
+print(status)  # Saída: Maior de idade
+
+Neste exemplo, a variável status recebe o valor "Maior de idade" se a condição idade >= 18 for verdadeira. 
+Caso contrário, ela receberá "Menor de idade".
+
+Vantagens:
+Código mais conciso: Substitui múltiplas linhas de if-else por uma única linha.
+Legibilidade: Útil quando a lógica é simples e direta, melhorando a clareza do código.
